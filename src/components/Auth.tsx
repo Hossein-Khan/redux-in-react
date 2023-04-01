@@ -4,7 +4,7 @@ import styles from "./Auth.module.css";
 
 type AuthProps = {};
 
-const Auth = function (props: AuthProps): JSX.Element {
+const Auth: React.FunctionComponent<AuthProps> = (props) => {
   return (
     <main className={styles.auth}>
       <section>

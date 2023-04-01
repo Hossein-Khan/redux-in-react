@@ -1,7 +1,7 @@
 import Counter from "./components/Counter";
 
-function App() {
+const App: React.FunctionComponent = () => {
   return <Counter />;
-}
+};
 
 export default App;

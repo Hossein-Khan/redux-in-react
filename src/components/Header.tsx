@@ -4,7 +4,7 @@ import styles from "./Header.module.css";
 
 type HeaderProps = {};
 
-const Header = function (props: HeaderProps): JSX.Element {
+const Header: React.FunctionComponent<HeaderProps> = (props) => {
   return (
     <header className={styles.header}>
       <h1>Redux Auth</h1>

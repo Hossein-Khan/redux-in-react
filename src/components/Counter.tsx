@@ -4,7 +4,7 @@ import styles from "./Counter.module.css";
 
 type CounterProps = {};
 
-const Counter = function (props: CounterProps): JSX.Element {
+const Counter: React.FunctionComponent<CounterProps> = (props) => {
   const toggleCounterHandler = () => {};
 
   return (
